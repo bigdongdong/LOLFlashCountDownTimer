@@ -7,14 +7,13 @@ import android.graphics.Paint;
 import android.graphics.Rect;
 import android.graphics.drawable.GradientDrawable;
 import android.util.AttributeSet;
-import android.util.Log;
 import android.view.View;
 
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 
 public final class SwitchView extends View {
-    private final float mInnerPaddingRadio = 0.07f ;
+    private final float mInnerPaddingRatio = 0.07f ;
     private final int mOpenFillColor = Color.WHITE ;
     private final int mCloseFillColor = Color.GRAY ;
     private final int mBackgroundColor = Color.parseColor("#CCCCCC");
@@ -86,7 +85,7 @@ public final class SwitchView extends View {
     protected void onDraw(Canvas canvas) {
         super.onDraw(canvas);
 
-        final int innerPadding = (int) (getMeasuredHeight()*mInnerPaddingRadio);
+        final int innerPadding = (int) (getMeasuredHeight()* mInnerPaddingRatio);
         if(mState){
             mRect.set(0,0,getMeasuredHeight(),getMeasuredHeight());
         }else{

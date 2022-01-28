@@ -13,15 +13,19 @@
         android:layout_width="80dp"
         android:layout_height="wrap_content"/>
     <com.cxd.lol.view.SwitchFlashView
+        android:layout_marginStart="10dp"
         android:layout_width="80dp"
         android:layout_height="wrap_content"/>
     <com.cxd.lol.view.SwitchFlashView
+        android:layout_marginStart="10dp"
         android:layout_width="80dp"
         android:layout_height="wrap_content"/>
     <com.cxd.lol.view.SwitchFlashView
+        android:layout_marginStart="10dp"
         android:layout_width="80dp"
         android:layout_height="wrap_content"/>
     <com.cxd.lol.view.SwitchFlashView
+        android:layout_marginStart="10dp"
         android:layout_width="80dp"
         android:layout_height="wrap_content"/>
 
